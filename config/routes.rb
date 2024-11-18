@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   get "student_details/update"
   get "student_details/delete"
   root "student_details#index"
+
+   resources :student_details
 end

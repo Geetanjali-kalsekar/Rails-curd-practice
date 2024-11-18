@@ -4,6 +4,7 @@ class StudentDetailsController < ApplicationController
   end
 
   def new
+    @student_detail = StudentDetail.new
   end
 
   def show 
